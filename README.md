@@ -1,8 +1,12 @@
-# mipsAudit
+# IDAPython mipsAudit
 
 ## 简介
 
-这是一个MIPS静态汇编审计辅助脚本，使用python编写。
+这是一个简单的IDAPython脚本。
+
+进一步来说是MIPS静态汇编审计辅助脚本。
+
+可能会有bug，欢迎大家完善。
 
 ## 审计的危险函数如下
 
