@@ -1,5 +1,17 @@
 # IDAPython mipsAudit
 
+## 更新 2020.12 by t3ls
+
+- 重写了一些函数调用以兼容 IDA 7.5，已测试插件可正常运行在 IDA 7.0, 7.2, 7.5 版本上
+
+- 依赖 `prettytable`，`pip3 install prettytable --target="D:\Program Files\IDA 7.5\python\3"`
+
+- 使用方式修改为：
+
+    1. 将 `mipsAudit.py` 拷贝到 `D:\Program Files\IDA 7.5\plugins` 目录
+
+    2. 启动后在 Edit - Plugins 下点击 mipsAudit 即可（快捷键 Ctrl+Alt+M）
+
 ## 简介
 
 这是一个简单的IDAPython脚本。
@@ -56,6 +68,8 @@ command_execution_function = [
 ```
 
 ## 使用
+
+
 
 File - Script file
 
